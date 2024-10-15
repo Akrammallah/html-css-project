@@ -1,0 +1,420 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+
+
+
+
+}
+ .mainHeader{
+  
+background-color: black;
+color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+ justify-content: space-between;
+ align-content: space-between;
+ height: fit-content;
+ margin-left: 2rem;
+ margin-right: 2rem;
+ 
+}
+.leftHeader img{
+  width: 5rem;
+  height: 3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  margin-left: 2rem;
+}
+
+.headerBtn{
+  padding-inline: irem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: yellowgreen;
+}
+ .right{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+ }
+ .topIcon i{
+  gap: 2rem;
+  margin-left: 2rem;
+ }
+
+ .header{
+  background-color: rgb(224, 249, 170);
+color: black;
+  display: flex;
+  flex-wrap: wrap;
+  
+ justify-content: space-between;
+ align-content: space-between;
+ 
+ 
+ margin-left: 2rem;
+ margin-right: 2rem;
+ }
+
+ .headerRight{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+
+ }
+
+ .headerRight ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+  font-weight: bold;
+  margin-right: 1rem;
+
+ }
+
+ .home{
+  width: 100%;
+  
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+ }
+
+ .home h1{
+  margin-top: 3rem;
+
+ }
+.home button{
+  background-color: rgb(246, 246, 91);
+  color: black;
+  border: none;
+  padding: 5px;
+}
+
+.leftHeader h1 span{
+  color: yellowgreen;
+  
+}
+
+.icon{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+  font-weight: bold;
+  
+  justify-content: center;
+  font-size:xx-large;
+  
+
+
+}
+.icon h5{
+  text-align: center;
+  margin-left: 3rem;
+  font-size: small;
+}
+
+.icons h1{
+  text-align: center;
+}
+.icons h1 span{
+  color: yellowgreen;
+}
+.icon-grid {
+  display: flex; /* آئیکنز کو ایک لائن میں رکھنے کے لیے */
+  justify-content: space-around; /* آئیکنز کے درمیان فاصلہ رکھنے کے لیے */
+  padding: 20px;
+  flex-wrap: wrap; /* آئیکنز کو لائن میں ایڈجسٹ کرنے کے لیے */
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column; /* آئیکن کو اوپر اور نام کو نیچے رکھنے کے لیے */
+  align-items: center; /* آئیکن اور نام کو سینٹر میں رکھنے کے لیے */
+  text-align: center; /* Text کو سینٹر میں رکھنے کے لیے */
+  margin: 20px;
+}
+
+.icon-container i {
+  font-size: 40px; /* آئیکن کی سائز */
+  margin-bottom: 10px; /* آئیکن اور نام کے درمیان فاصلہ */
+}
+
+.icon-container span {
+  font-size: 16px; /* نام کی سائز */
+}
+
+
+
+.grid-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.about h1{
+  text-align: end;
+  
+}
+.about h1 span{
+  color: yellowgreen;
+}
+.about p{
+  font-weight: bold;
+  text-align:justify;
+}
+.about button{
+  background-color: yellow;
+  color: black;
+  padding-inline: 10px;
+  padding-bottom: 2px;
+  padding:10px;
+  padding-top: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 2px;
+  text-align: center;
+}
+.service{
+  text-align: center;
+}
+.service span{
+  color: yellowgreen;
+}
+.star-grid{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.star-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+.star-container p{
+  color: yellow;
+}
+.star-container span{
+  font-size: 16px;
+}
+
+
+.star-grid h1{
+  text-align: center;
+}
+.protfolio-grid{
+  background-color: black;
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  color: white;
+}
+
+.protData{
+  text-align: center;
+  padding: auto;
+  
+}
+
+.protData h1 span{
+  color: yellowgreen;
+  
+}
+
+.protUl ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.protUl span{
+  color: rgb(236, 156, 9);
+}
+
+.protImg{
+  padding-left: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.process-grid{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.processImg-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+
+.num{
+  background-color: yellow;
+  color: black;
+  border-radius: 100%;
+  width: 20px;
+  align-items: center;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+
+}
+.processImg-container span{
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.mainProcess{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.mainProcess span{
+  color: yellowgreen;
+}
+  .aboutUsHeading{
+    text-align: center;
+  }
+  .aboutUsHeading span{
+    color: yellowgreen;
+  }
+.aboutUsHeading p{
+  
+  text-decoration:whitesmoke
+}
+
+
+.aboutUs{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.box{
+  width: 45%;
+  margin-bottom: 20px;
+  margin-left: 3rem;
+  
+
+}
+
+.box h2{
+  text-align: start;
+}
+.box p{
+  text-align: justify;
+  margin: auto;
+}
+
+.skillsHeading{
+  text-align: center;
+}
+.skillsHeading span{
+  color: yellowgreen;
+}
+
+.skills-grid{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.skills-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.skills-container span{
+  margin-top: 2rem;
+}
+
+.project-grid{
+  background-color: yellowgreen;
+  width: 80%;
+  text-align: center;
+  padding-top: 2rem;
+  margin: auto;
+  color: white;
+  padding-bottom: 2rem;
+}
+.skillsInput button{
+  background-color: yellow;
+  padding-inline: 5px;
+  padding-bottom: 2px;
+  border: none;
+  padding-top: 5px;
+  font-weight: bold;
+
+}
+.skillsInput input{
+  margin: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  border: none;
+}
+
+.contactHeader{
+  text-align: center;
+}
+.contactHeader span{
+color: yellowgreen;
+}
+.contact-grid{
+  text-align: center;
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+
+.contact-container{
+  text-align: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+.footer-grid{
+  background-color: yellowgreen;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  color: white;
+}
+
+.footer-box{
+  width: 15%;
+  margin-bottom: 20px;
+  margin-left: 3rem;
+  
+  
+}
+.footer-box h5{
+  text-decoration: underline;
+}
+.footer-icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
