@@ -30,7 +30,7 @@ color: white;
 }
 
 .headerBtn{
-  padding-inline: irem;
+  padding-inline: 1rem;
   align-items: center;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
@@ -52,11 +52,8 @@ color: white;
 color: black;
   display: flex;
   flex-wrap: wrap;
-  
- justify-content: space-between;
+  justify-content: space-between;
  align-content: space-between;
- 
- 
  margin-left: 2rem;
  margin-right: 2rem;
  }
@@ -76,7 +73,11 @@ color: black;
   gap: 48px;
   font-weight: bold;
   margin-right: 1rem;
+  list-style: none;
 
+ }
+ .headerRight ul li:hover{
+color: rgb(235, 70, 5);
  }
 
  .home{
@@ -98,7 +99,12 @@ color: black;
   background-color: rgb(246, 246, 91);
   color: black;
   border: none;
-  padding: 5px;
+  padding: 1vw 2vw;
+  border-radius: 1vw;
+}
+.home button:hover{
+  background-color: blue;
+  color: white;
 }
 
 .leftHeader h1 span{
@@ -115,10 +121,7 @@ color: black;
   
   justify-content: center;
   font-size:xx-large;
-  
-
-
-}
+  }
 .icon h5{
   text-align: center;
   margin-left: 3rem;
@@ -132,27 +135,31 @@ color: black;
   color: yellowgreen;
 }
 .icon-grid {
-  display: flex; /* آئیکنز کو ایک لائن میں رکھنے کے لیے */
-  justify-content: space-around; /* آئیکنز کے درمیان فاصلہ رکھنے کے لیے */
+  display: flex;
+  justify-content: space-around; 
   padding: 20px;
-  flex-wrap: wrap; /* آئیکنز کو لائن میں ایڈجسٹ کرنے کے لیے */
+  flex-wrap: wrap; 
 }
 
 .icon-container {
   display: flex;
-  flex-direction: column; /* آئیکن کو اوپر اور نام کو نیچے رکھنے کے لیے */
-  align-items: center; /* آئیکن اور نام کو سینٹر میں رکھنے کے لیے */
-  text-align: center; /* Text کو سینٹر میں رکھنے کے لیے */
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
   margin: 20px;
 }
 
 .icon-container i {
-  font-size: 40px; /* آئیکن کی سائز */
-  margin-bottom: 10px; /* آئیکن اور نام کے درمیان فاصلہ */
+  font-size: 40px; 
+  margin-bottom: 10px; 
+}
+.icon-container i:hover,.icon-container span:hover{
+  color: rgb(253, 76, 12);
 }
 
 .icon-container span {
-  font-size: 16px; /* نام کی سائز */
+  font-size: 16px;
+
 }
 
 
@@ -207,10 +214,14 @@ color: black;
   margin: 20px;
 }
 .star-container p{
-  color: yellow;
+  color: rgba(13, 182, 72, 0.635);
 }
 .star-container span{
   font-size: 16px;
+}
+.star-container img{
+  background:rgb(6, 145, 6);
+  border-radius: 10vw;
 }
 
 
@@ -241,6 +252,10 @@ color: black;
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  list-style: none;
+}
+.protUl ul li:hover{
+  color: rgb(247, 94, 5);
 }
 .protUl span{
   color: rgb(236, 156, 9);
@@ -265,6 +280,10 @@ color: black;
   flex-direction: column;
   text-align: center;
   
+}
+.processImg-container img{
+  background:blue;
+  border-radius: 10vw;
 }
 
 
